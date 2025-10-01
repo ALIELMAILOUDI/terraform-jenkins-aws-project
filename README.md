@@ -1,4 +1,6 @@
-This project automates the deployment of a high-availability AWS architecture using Terraform and Jenkins. The architecture consists of an Auto Scaling Group and an Application Load Balancer, all deployed within a separate VPC.
+Deploying High-Availability Two-Tier AWS Architecture with Terraform and Jenkins
+
+This project automates the deployment of a high-availability AWS architecture using Terraform and Jenkins. The architecture comprises a web tier that handles user requests and a database tier for data storage. I leveraged Terraform for Infrastructure as Code (IaC) to provision and manage AWS resources efficiently.
 
 The project is divided into two parts:
 
